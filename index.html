@@ -1,61 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sarah Sair | AI / Data Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sarah Sair | AI/GenAI + Data Science Portfolio</title>
+  <meta name="description" content="Junior AI/GenAI Engineer & Data Scientist | Data Analytics | SQL | Python | RAG | LLM Apps | Machine Learning" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
-  <header>
-    <h1>Sarah Sair</h1>
-    <p class="subtitle">
-      Junior AI / GenAI Engineer & Data Scientist
-    </p>
-    <p class="tags">
-      Data Analytics • SQL • Python • RAG • LLM Apps • Machine Learning
-    </p>
-    <div class="buttons">
-      <a href="https://github.com/sarahsair25" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/YOUR_LINK" target="_blank">LinkedIn</a>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Sarah Sair</div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn" href="https://github.com/sarahsair25" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btnPrimary" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Junior AI / GenAI Engineer & Data Scientist</h1>
+        <p class="subtitle">Data Analytics • SQL • Python • RAG • LLM Apps • Machine Learning</p>
+        <p class="lead">
+          I build production-aware AI systems and SQL-driven analytics projects—turning raw data into reliable insights and deployable applications.
+        </p>
+
+        <div class="actions">
+          <a class="btn btnPrimary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+
+        <div class="chips">
+          <span>PostgreSQL</span><span>SQL</span><span>Python</span><span>RAG</span><span>LLM Apps</span><span>scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-title">Featured Focus</div>
+        <ul>
+          <li>GenAI systems with evaluation + guardrails</li>
+          <li>Advanced SQL analytics (window functions, KPIs)</li>
+          <li>End-to-end ML pipelines (training → evaluation)</li>
+        </ul>
+      </div>
     </div>
   </header>
 
-  <section>
-    <h2>Featured Projects</h2>
+  <main>
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <p class="muted">A curated set across GenAI, Data Analytics (SQL), and Machine Learning.</p>
 
-    <div class="card">
-      <h3>LLM Prompt Engineering Case Study</h3>
-      <p>Structured prompt design, evaluation loops, and guardrails to improve LLM reliability.</p>
-      <a href="https://github.com/sarahsair25/llm-prompt-engineering-case-study" target="_blank">View Project</a>
+        <div class="grid">
+          <article class="card">
+            <h3>LLM Prompt Engineering Case Study</h3>
+            <p>Structured prompt design + evaluation loops + guardrails to improve LLM reliability.</p>
+            <div class="tags">
+              <span>GenAI</span><span>LLMs</span><span>Evaluation</span><span>Python</span>
+            </div>
+            <div class="links">
+              <a class="link" target="_blank" rel="noreferrer" href="https://github.com/sarahsair25/llm-prompt-engineering-case-study">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>SQL Mentor — User Performance Analysis</h3>
+            <p>PostgreSQL analytics pipeline with leaderboards, streaks, rolling 7-day metrics, and difficulty proxy modeling.</p>
+            <div class="tags">
+              <span>PostgreSQL</span><span>SQL</span><span>Window Functions</span><span>KPI Modeling</span>
+            </div>
+            <div class="links">
+              <a class="link" target="_blank" rel="noreferrer" href="YOUR_SQL_MENTOR_REPO_LINK">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>SQL-Only E-Commerce Analytics Platform</h3>
+            <p>SQL-only KPI modeling for revenue, AOV, LTV, retention, cohorts, and trend analysis.</p>
+            <div class="tags">
+              <span>PostgreSQL</span><span>Advanced SQL</span><span>Cohorts</span><span>Retention</span>
+            </div>
+            <div class="links">
+              <a class="link" target="_blank" rel="noreferrer" href="YOUR_ECOM_REPO_LINK">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Sales Data Cleaning (SQL Server / SSMS)</h3>
+            <p>Staging → clean workflow, standardization, deduplication, and analytics-ready views from raw CSV.</p>
+            <div class="tags">
+              <span>SQL Server</span><span>T-SQL</span><span>Data Cleaning</span><span>ETL</span>
+            </div>
+            <div class="links">
+              <a class="link" target="_blank" rel="noreferrer" href="https://github.com/sarahsair25/Data-Cleaning-With-SQL-project">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Customer Churn Prediction</h3>
+            <p>End-to-end ML pipeline: EDA, feature engineering, classification modeling, evaluation.</p>
+            <div class="tags">
+              <span>Machine Learning</span><span>Python</span><span>scikit-learn</span>
+            </div>
+            <div class="links">
+              <a class="link" target="_blank" rel="noreferrer" href="https://github.com/sarahsair25/customer-churn-prediction">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Credit Card Fraud Detection</h3>
+            <p>Imbalanced classification with precision/recall focus and strong evaluation metrics.</p>
+            <div class="tags">
+              <span>Machine Learning</span><span>Python</span><span>Model Evaluation</span>
+            </div>
+            <div class="links">
+              <a class="link" target="_blank" rel="noreferrer" href="https://github.com/sarahsair25/Credit-Card-Fraud-Detection-Sys-tem">GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid3">
+          <div class="card">
+            <h3>GenAI</h3>
+            <ul>
+              <li>LLM APIs • Prompt Engineering • RAG</li>
+              <li>Evaluation loops • Guardrails • Reliability</li>
+              <li>LLM app workflows (deployable solutions)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Data Analytics</h3>
+            <ul>
+              <li>SQL • PostgreSQL • SQL Server</li>
+              <li>CTEs • Window Functions • KPI Modeling</li>
+              <li>Data cleaning • Cohorts • Retention</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Machine Learning</h3>
+            <ul>
+              <li>scikit-learn • Classification • Clustering</li>
+              <li>Feature engineering • Model evaluation</li>
+              <li>Metrics: precision/recall/F1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p class="muted">
+          I’m Sarah Sair, a Junior AI / GenAI Engineer & Data Scientist with 13+ years of technical systems experience.
+          I bring a production mindset to AI, ML, and analytics—focused on reliability, structured evaluation, and clean data modeling.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="muted">Best way to reach me: LinkedIn or email.</p>
+        <div class="actions">
+          <a class="btn btnPrimary" href="mailto:YOUR_EMAIL@email.com">Email Me</a>
+          <a class="btn" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn" href="https://github.com/sarahsair25" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Sarah Sair</span>
     </div>
-
-    <div class="card">
-      <h3>SQL Mentor – User Performance Analysis</h3>
-      <p>PostgreSQL analytics pipeline with leaderboards, streaks, and rolling 7-day metrics.</p>
-      <a href="YOUR_SQL_REPO_LINK" target="_blank">View Project</a>
-    </div>
-
-    <div class="card">
-      <h3>SQL-Only E-Commerce Analytics Platform</h3>
-      <p>KPI modeling for revenue, AOV, LTV, retention and cohort analysis using advanced SQL.</p>
-      <a href="YOUR_ECOM_REPO_LINK" target="_blank">View Project</a>
-    </div>
-
-  </section>
-
-  <section>
-    <h2>About</h2>
-    <p>
-      I’m a Junior AI / GenAI Engineer & Data Scientist with 13+ years of technical systems experience.
-      I bring a production mindset to AI, ML, and analytics projects—focused on reliability,
-      structured evaluation, and clean data modeling.
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2026 Sarah Sair</p>
   </footer>
-
 </body>
 </html>
